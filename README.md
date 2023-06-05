@@ -24,7 +24,9 @@ lalu pilih tombol warna hijau
 # Menjalankan H2 Database di browser
 1. pastikan project ini sudah berjalan, lalu ketikan di browser http://localhost:8080/h2-console
 ![h2](https://github.com/mohammadsulaeman/Test_Java_Developer/assets/68136244/466321a4-a59c-4fd9-81c8-107f3c3cfa9b)
-2. login h2 database, bisa menggunakan pada applicatio.proper
- - JDBC URL: 
+2. login h2 database, bisa menggunakan pada application.properties, seperti jdbc url, username dan password
+ - JDBC URL: jdbc:h2:~/employes_db
+ - User Name: sa
+ - Password: mypassword
 3. periksa data yang di kirim dari postman ke dalam database
 ![hasil](https://github.com/mohammadsulaeman/Test_Java_Developer/assets/68136244/5c7aaef7-0ec9-4313-9e8e-985ce0a58679)
